@@ -18,9 +18,9 @@ import projects from "@/data/projects";
 ---
 
 <Layout>
-  <main class="flex flex-col gap-20">
+  <main class="flex flex-col gap-12">
     <article
-      class="flex flex-col gap-8 md:flex-row-reverse md:justify-end md:gap-12"
+      class="flex flex-col gap-4 md:flex-row-reverse md:justify-end md:gap-12"
     >
       {
         presentation.profile && (
@@ -72,7 +72,19 @@ import projects from "@/data/projects";
       </section>
     </article> -->
 
-    <article class="flex flex-col gap-8">
+    <article class="flex flex-col gap-4">
+      <header class="flex w-full flex-row justify-between gap-2">
+        <h3 class="text-lg text-neutral-100">
+          Work experience
+        </h3>
+      </header>
+      <section>
+        A summary of my  
+        <Link href="/experience" label="work experience" isUnderline target="_blank" />
+      </section>
+    </article>
+
+    <article class="flex flex-col gap-4">
       <header class="flex w-full flex-row justify-between gap-2">
         <h3 class="text-lg text-neutral-100">
           Personal projects<!--  ({projects.length}) -->
@@ -88,7 +100,7 @@ import projects from "@/data/projects";
       </section>
     </article>
 
-    <article class="flex flex-col gap-8">
+    <article class="flex flex-col gap-4">
       <header class="flex w-full flex-row justify-between gap-2">
         <h3 class="text-lg text-neutral-100">Get in touch</h3>
       </header>
