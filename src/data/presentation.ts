@@ -17,7 +17,7 @@ const presentation: Presentation = {
   title: "Hi, I’m Andrea 👋",
   // profile: "/profile.webp",
   description:
-    "I'm a *Freelance Senior Software Engineer* specialized in developing complex, scalable single-page applications and apps. My primary stack includes *TypeScript, React, Next.JS, GraphQL and Flutter*. Outside of work, I enhance my skills by reading books, watching courses and working on personal projects.",
+    "I'm a *Freelance Senior Software Engineer* specialized in developing complex, scalable single-page applications and apps. My primary stack includes *TypeScript, React, Next.JS, GraphQL and Flutter*. Outside of work, I enhance my personal skills by reading books, watching courses and working on personal projects.",
   socials: [
     {
       label: "X",
