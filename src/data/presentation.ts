@@ -15,7 +15,7 @@ type Presentation = {
 const presentation: Presentation = {
   mail: "andrea.perinu@gmail.com",
   title: "Hi, I’m Andrea 👋",
-  // profile: "/profile.webp",
+  profile: "/profile.webp",
   description:
     "I'm a *Freelance Senior Software Engineer* specialized in developing complex, scalable single-page applications and apps. My primary stack includes *TypeScript, React, Next.JS, GraphQL and Flutter*. Outside of work, I enhance my personal skills by reading books, watching courses and working on personal projects.",
   socials: [
