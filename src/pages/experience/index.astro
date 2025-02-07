@@ -4,6 +4,7 @@ import jobs from "@/data/jobs";
 import cv from "/cv.pdf";
 import Link from "@/components/shared/Link.astro";
 import { formatTechs } from "@/components/ProjectCard.astro";
+import convertAsteriskToStrongTag from "@/utils/convertAsteriskToStrongTag";
 ---
 
 <Layout title="Template - All Posts">
@@ -18,10 +19,11 @@ import { formatTechs } from "@/components/ProjectCard.astro";
           </header>
           {jobs.length === 0 && <p>Oops, I must work^^^^^</p>}
 
-          <section class="flex flex-col gap-4">
-            {job.description}
-          </section>
-
+          <section
+            class="w-auto w-auto max-w-[60ch] leading-6"
+            set:html={convertAsteriskToStrongTag(job.description)}
+          />
+{/* " */}
           <section class="flex flex-col gap-4">
             Technologies used: {formatTechs(job.techs)}
           </section>

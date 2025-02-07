@@ -14,7 +14,7 @@ const projects: Project[] = [
   {
     title: "fp-ts showcase",
     techs: ["ReactJS, fp-ts", "TypeScript", "Jest", "Enzyme", "@testing-library/react-hooks"],
-    link: "https://github.com/andreaperinu/dogs-dashboard/",
+    link: "https://github.com/andreaperinu/fp-ts-showcase",
   },
   {
     title: "Portfolio / Reusable components",
