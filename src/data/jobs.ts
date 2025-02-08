@@ -7,7 +7,7 @@ export type Job = {
 const jobs: Job[] = [
 	{
 		title: "Frontend Technical Lead @ Deliveristo",
-		description: "Transformed platform from Vue.js to React/Next.js with server-side components</br>Reduced initial page load times by *95%* (from 3.5s to 150ms)</br>Rebuilt mobile app in Flutter, eliminating *95%* of legacy bugs</br>Increased test coverage from *0% to 90%*",
+		description: "Transformed platform from Vue.js to React/Next.js with server-side components</br>Reduced initial page load times by *95%* (from *3.5s to 150ms*)</br>Rebuilt mobile app in Flutter, eliminating *95%* of legacy bugs</br>Increased test coverage from *0% to 90%*",
 		techs: ["TypeScript", "React", "Apollo GraphQL", "Next.js", "PostCSS", "Jest", "Cypress", "Flutter"],
 	},
 	{
