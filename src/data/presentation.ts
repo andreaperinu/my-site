@@ -10,14 +10,13 @@ type Presentation = {
   socials: Social[];
   profile?: string;
 };
-// Senior Frontend Engineer specialized in creating complex single page applications and apps that scales. TypeScript | React | Next.JS | GraphQL | Flutter
 
 const presentation: Presentation = {
   mail: "andrea.perinu@gmail.com",
   title: "Hi, I’m Andrea 👋",
   profile: "/profile.webp",
   description:
-    "I'm a *Freelance Senior Frontend Engineer* specialized in developing complex, scalable single-page applications and apps. My primary stack includes *TypeScript, React, Next.JS, GraphQL and Flutter*. Outside of work, I enhance my personal skills by reading books, watching courses and working on personal projects.",
+    "*Senior React / Next.js Engineer* with 10+ years of experience building high-performance web and mobile applications. I specialize in *frontend architecture*, *performance optimization* and *modernizing legacy systems*, with a strong functional programming background. I've delivered solutions for global brands including *FIFA*, *UEFA*, *Olympics*, *NHK* and *Deutsche Telekom*, and currently work with international clients across fintech, Web3 and SaaS. Outside of work I keep growing by reading, taking courses and working on personal projects.",
   socials: [
     {
       label: "X",
